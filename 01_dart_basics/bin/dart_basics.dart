@@ -27,7 +27,7 @@ void main() {
 
   num num3 = 20; //can be used to store as double and int
 
-  String name = "Jerin Paul's"; //to include special characters
+  String name = "hello "; //to include special characters
   String name1 = 'Hi im das'; //to write a normal string
   String address = ''' House Name
                        Ward Number
@@ -93,12 +93,12 @@ void main() {
 //=============================================================================
   //Map  - Dictionaries
 
-  var map1 = {"Name": "jerin", "age": 17}; //unique keys
+  var map1 = {"Name": "hello", "age": 17}; //unique keys
   //Map <key_datatype, value_datatype> map_name{
   //"key":"value"
   //}
   Map<String, String> map2 = {
-    "Name": "Jerin",
+    "Name": "hello",
     "Age": "20"
   }; //declaration methods
   print(map1['Name']);
